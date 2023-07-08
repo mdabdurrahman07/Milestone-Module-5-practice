@@ -55,7 +55,7 @@ margin-bottom: 32px;
 }
 .fail-text-contain{
  margin-right: 400px;
- display: inline-block;
+ 
 }
 .fail-text{
     color: var(--dark-01, #151414);
@@ -73,4 +73,12 @@ margin-bottom: 32px;
     font-weight: 400;
     margin-bottom: 20px;
 
+}
+.about-title{
+    text-align: center;
+}
+.skill-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
