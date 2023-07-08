@@ -6,8 +6,8 @@
 }
 .btn-common{
     border-radius: 5px;
-    background: #F15B22;
-    color: #FFF;
+    background: #fff;
+    color: #005FAC;
     font-size: 20px;
     font-weight: 600;
     border: none;
@@ -15,7 +15,7 @@
 }
 /* header related style */
 header{
-    background-image: url(../images/banner/banner1.png);
+    background-image: url(../images/banner/banner3.png);
     height: 808px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -26,14 +26,14 @@ header{
     
 }
 .banner-title{
-    color: #151414;
+    color: #fff;
 text-align: right;
 font-size: 65px;
 font-weight: 700;
 margin-bottom: 32px;
 }
 .banner-disp{
-    color: #444343;
+    color: #fff;
 text-align: right;
 font-size: 16px;
 font-weight: 400;
@@ -42,4 +42,35 @@ margin-bottom: 32px;
 }
 .button-size{
     padding-left: 472px ;
+}
+/* main section */
+.failure-text-img-container{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 70px;
+}
+.img-bg{
+    margin: 130px 300px 50px 200px;
+}
+.fail-text-contain{
+ margin-right: 400px;
+ display: inline-block;
+}
+.fail-text{
+    color: var(--dark-01, #151414);
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+   margin-bottom: 20px
+}
+.fail-discription{
+    color: var(--dark-02, #444343);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 20px;
+
 }
