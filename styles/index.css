@@ -25,6 +25,7 @@ header{
     padding: 220px 250px 370px 900px;
     
 }
+
 .banner-title{
     color: #fff;
 text-align: right;
@@ -39,46 +40,81 @@ font-size: 16px;
 font-weight: 400;
 margin-bottom: 32px;
 
+
 }
 .button-size{
     padding-left: 472px ;
 }
 /* main section */
-.failure-text-img-container{
+.failure-section{
     display: flex;
-    flex-direction: row-reverse;
     align-items: center;
-    gap: 70px;
+    justify-content: space-around;
+    width: 50%;
+    margin: auto;
 }
-.img-bg{
-    margin: 130px 300px 50px 200px;
+.failure-img{
+    height: 480px;
+    margin-top: 130px;
+    margin-bottom: 80px;
 }
-.fail-text-contain{
- margin-right: 400px;
  
-}
-.fail-text{
-    color: var(--dark-01, #151414);
-    font-family: Work Sans;
+
+.failure-title{
+    color: #151414;
     font-size: 40px;
-    font-style: normal;
     font-weight: 700;
-   margin-bottom: 20px
+   margin-bottom: 20px;
+   padding-left: 20px;
+   margin-top: 40px;
 }
-.fail-discription{
-    color: var(--dark-02, #444343);
-    font-family: Work Sans;
+.failure-discription{
+    color: rgb(80, 80, 80);
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
-    margin-bottom: 20px;
+    padding: 20px;
 
 }
-.about-title{
+.failure-itme{
+    align-items: center;
+    padding-bottom: 5px;
+}
+.check-icon{
+    height: 18px;
+}
+.plan-section{
+    margin: 100px 100px 60px 100px;
+}
+#plan{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.plans{
+    display: flex;
+    justify-content: space-around;
+}
+.plan{
     text-align: center;
 }
-.skill-box{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.plan-img{
+    height: 90px;
+}
+.plan-title{
+    font-size: 30px;
+    font-weight: 700;
+}
+.plan-disceiption{
+    color: var(--dark-03, #737272);
+    font-size: 25px;
+    font-weight: 500;
+}
+.positive-banner{
+    background-image: url(../images/watch.png) ,url(../images/gradient1.png) , linear-gradient(90deg, #008cff1b 0%, rgba(0, 95, 172, 0) 100%);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    /* width: 50%; */
+    /* margin: auto; */
+    height: 270px;
+    margin: 130px 180px 130px 400px;   
+
 }
