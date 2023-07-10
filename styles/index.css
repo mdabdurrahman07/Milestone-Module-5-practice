@@ -129,3 +129,68 @@ margin-bottom: 32px;
 .btn-positive{
     margin-left: 40px;
 }
+.bottom-section{
+    height: 560px;
+    background-color: black;
+}
+.bottom-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.future-title{
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+}
+.future-disp{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    /* width: 50%; */
+    margin-bottom: 10px;
+
+}
+.future-email-phone{
+    color: #FFF;
+font-size: 16px;
+font-weight: 400;
+margin-bottom:15px;
+
+}
+
+.subs-title{
+    color: #FFF;
+font-size: 25px;
+font-weight: 600;
+margin-bottom: 20px;
+
+}
+.input-email{
+ padding: 21px 158px 21px 21px;
+ background-color: #151414;
+ color: #ffffff;
+ border: 1px solid white;
+ border-radius: 8px;
+}
+::placeholder {
+    color: rgb(255, 255, 255);
+  }
+  .subs-btn{
+    background-color: #005FAC;
+    color: #FFF;
+    padding: 20px 36px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 14px;
+    font-size: 19px;
+    font-weight: 600;
+
+  }
+.social-links{
+    padding-right: 10px;    
+}
+
