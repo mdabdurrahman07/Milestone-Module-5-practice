@@ -115,6 +115,17 @@ margin-bottom: 32px;
     /* width: 50%; */
     /* margin: auto; */
     height: 270px;
-    margin: 130px 180px 130px 400px;   
+    margin: 100px 180px 130px 400px;   
 
+}
+.positive-text{
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 40px;
+}
+.btn-positive{
+    margin-left: 40px;
 }
